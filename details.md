@@ -1,0 +1,1 @@
+This will copy the Peux OS River configurations on your system's "/tmp/Peux-River" directory. You may then copy the respective configuration from this directory over to your Home directory.  The repository can be found at https://github.com/peux-os-sic/Peux-River.
