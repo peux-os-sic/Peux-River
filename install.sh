@@ -13,7 +13,7 @@ then
     echo "changing directory"
     cd ../
     mkdir $HOME/tmp
-    cp -r Peux-River/*/ $HOME/tmp/
+    cp -r Peux-River/ $HOME/tmp/
     notify-send "Copied the configurations to $HOME/tmp/"
 else
     notify-send "skipping the setup!"
