@@ -14,6 +14,9 @@ then
     cd ../
     mkdir $HOME/tmp
     cp -r Peux-River/ $HOME/tmp/
+    rm -rf $HOME/tmp/Peux-River/install.sh
+    rm -rf $HOME/tmp/Peux-River/.git
+    rm -rf $HOME/tmp/Peux-River/details.md
     notify-send "Copied the configurations to $HOME/tmp/"
 else
     notify-send "skipping the setup!"
