@@ -14,7 +14,7 @@ then
     cd ../
     mkdir tmp
     cd tmp/
-    cp -r Peux-River/*/ $HOME/.config/
+    cp -r Peux-River/*/ $HOME/tmp/
     notify-send "Copied the configurations to $HOME/tmp/"
 else
     notify-send "skipping the setup!"
